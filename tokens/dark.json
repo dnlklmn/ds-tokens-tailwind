@@ -1,44 +1,326 @@
 {
-  "theme": {
+  "text": {
+    "default": {
+      "value": "#fefefe",
+      "type": "color"
+    },
+    "dimmed": {
+      "value": "#AEAEAE",
+      "type": "color"
+    },
+    "primary": {
+      "value": "#3996ec",
+      "type": "color"
+    },
+    "link": {
+      "value": "#3996ec",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#616161",
+      "type": "color"
+    },
+    "error": {
+      "value": "#FF3B30",
+      "type": "color"
+    },
+    "sensitive": {
+      "value": "#89BCC3",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#FFD541",
+      "type": "color"
+    }
+  },
+  "bg": {
+    "default": {
+      "value": "#212121",
+      "type": "color"
+    },
+    "grey": {
+      "value": "#323232",
+      "type": "color"
+    }
+  },
+  "textfield": {
     "bg": {
-      "default": {
-        "value": "#171717",
+      "primary": {
+        "value": "#09355d",
         "type": "color"
       },
-      "subtle": {
+      "error": {
+        "value": "#6B000070",
+        "type": "color"
+      },
+      "sensitive": {
+        "value": "#26768150",
+        "type": "color"
+      }
+    },
+    "border": {
+      "error": {
+        "value": "#FF3B30",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#3996ec",
+        "type": "color"
+      },
+      "default": {
+        "value": "#a2cef650",
+        "type": "color"
+      },
+      "bright": {
+        "value": "#AEAEAE",
+        "type": "color"
+      },
+      "sensitive": {
+        "value": "#65A8B1",
+        "type": "color"
+      }
+    }
+  },
+  "dropdown": {
+    "base": {
+      "default": {
         "value": "#323232",
         "type": "color"
       },
-      "muted": {
-        "value": "#757575",
+      "highlight": {
+        "value": "#73b5f220",
         "type": "color"
       }
     },
-    "fg": {
-      "default": {
-        "value": "#ffffff",
-        "type": "color"
+    "idle": {
+      "value": {
+        "x": 0,
+        "y": 8,
+        "blur": 24,
+        "spread": 0,
+        "color": "#00000050",
+        "type": "dropShadow"
       },
-      "onAccent": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "muted": {
-        "value": "#eeeeee",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "#9e9e9e",
+      "type": "boxShadow"
+    },
+    "border": {
+      "hint": {
+        "value": "#424242",
         "type": "color"
       }
     },
-    "accent": {
-      "default": {
-        "value": "#3d53f5",
+    "hover": {
+      "value": {
+        "x": 0,
+        "y": 8,
+        "blur": 8,
+        "spread": 0,
+        "color": "#00000008",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "button": {
+    "base": {
+      "primary": {
+        "value": "#3996ec",
         "type": "color"
       },
-      "subtle": {
-        "value": "#060818",
+      "hover": {
+        "value": "#459CED",
+        "type": "color"
+      },
+      "light": {
+        "value": "#09355d",
+        "type": "color"
+      },
+      "sensitive": {
+        "value": "#65A8B1",
+        "type": "color"
+      },
+      "destructive": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "quiet": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "primaryDisabled": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "destructiveDisabled": {
+        "value": "#323232",
+        "type": "color"
+      },
+      "secondaryDisabled": {
+        "value": "#323232",
+        "type": "color"
+      }
+    },
+    "text": {
+      "primary-inverts": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "primary-stable": {
+        "value": "#3996ec",
+        "type": "color"
+      },
+      "quiet": {
+        "value": "#3996ec",
+        "type": "color"
+      },
+      "destructive": {
+        "value": "#FF3B30",
+        "type": "color"
+      }
+    },
+    "idle": {
+      "value": {
+        "x": 0,
+        "y": 4,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000045",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "hover": {
+      "value": {
+        "x": 0,
+        "y": 8,
+        "blur": 8,
+        "spread": 0,
+        "color": "#00000038",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "border": {
+      "primary": {
+        "value": "#3996ec",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#0d4f8c",
+        "type": "color"
+      },
+      "quiet": {
+        "value": "#D1D1D1",
+        "type": "color"
+      }
+    }
+  },
+  "tag": {
+    "base": {
+      "default": {
+        "value": "#323232",
+        "type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "#fefefe",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#616161",
+        "type": "color"
+      }
+    }
+  },
+  "codeBlock": {
+    "background": {
+      "value": "#0d4f8c80",
+      "type": "color"
+    }
+  },
+  "tab": {
+    "bg": {
+      "value": "#171717",
+      "type": "color"
+    },
+    "active": {
+      "value": "#323232",
+      "type": "color"
+    }
+  },
+  "paging": {
+    "on": {
+      "value": "#65A8B1",
+      "type": "color"
+    },
+    "off": {
+      "value": "#21373A",
+      "type": "color"
+    }
+  },
+  "separator": {
+    "default": {
+      "value": "#616161",
+      "type": "color"
+    }
+  },
+  "card": {
+    "bg": {
+      "error": {
+        "value": "#FF3B3020",
+        "type": "color"
+      },
+      "default": {
+        "value": "#212121",
+        "type": "color"
+      },
+      "light": {
+        "value": "#323232",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#616161",
+        "type": "color"
+      }
+    }
+  },
+  "icon": {
+    "highlight": {
+      "default": {
+        "value": "#73b5f220",
+        "type": "color"
+      }
+    }
+  },
+  "keyboard": {
+    "background": {
+      "default": {
+        "value": "#000",
+        "type": "color"
+      }
+    },
+    "key": {
+      "default": {
+        "value": "#646464",
+        "type": "color"
+      },
+      "dimmed": {
+        "value": "#3F3F3F",
+        "type": "color"
+      }
+    },
+    "separator": {
+      "default": {
+        "value": "#3f3f3f",
         "type": "color"
       }
     }
